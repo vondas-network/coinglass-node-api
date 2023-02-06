@@ -10,6 +10,23 @@ Unofficial Coinglass API for Node.js
 npm i
 ```
 
+# Available Endpoints
+
+```
+| Name                          | Route         | Query                         | Parameters                      |
+| ----------------------------- | ------------- | ----------------------------- | ------------------------------- |
+| Exchange Open Interest        | futures       | openInterest                  | interval (int), symbol (string) |
+| Exchange Open Interest Chart  | futures       | openInterest/chart            | interval (int), symbol (string) |
+| Liquidation                   | futures       | liquidation_chart             | interval (int), symbol (string) |
+| Liquidation Chart             | futures       | liquidation/detail/chart      | interval (int), symbol (string) |
+| Long/Short Chart              | futures       | longShort_chart               | interval (int), symbol (string) |
+| Funding Rates Chart           | futures       | funding_rates_chart           | interval (int), symbol (string) |
+| Exchange Vol                  | futures       | vol/chart                     | symbol (string)                 |
+| Options Open Interest         | option        | openInterest                  | symbol (string)                 |
+| Options Open Interest Chart   | option        | openInterest/history/chart    | interval (int), symbol (string) |
+| Exchange Vol                  | option        | vol/history/chart             | symbol (string)                 |
+```
+
 # How to use
 
 ## Examples
@@ -217,4 +234,7 @@ gg.then(function(data) {
 }
 ```
 
-## Resources
+# Disclaimer
+This project is for educational purposes only. You should not construe any such information or other material as legal, tax, investment, financial, or other advice. Nothing contained here constitutes a solicitation, recommendation, endorsement, or offer by me or any third party service provider to buy or sell any securities or other financial instruments in this or in any other jurisdiction in which such solicitation or offer would be unlawful under the securities laws of such jurisdiction.
+
+Under no circumstances will I be held responsible or liable in any way for any claims, damages, losses, expenses, costs, or liabilities whatsoever, including, without limitation, any direct or indirect damages for loss of profits.
