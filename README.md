@@ -13,7 +13,7 @@ npm i
 # Available Endpoints
 
 ```
-| Name                          | Route         | Query                         | Parameters                      |
+| Name                          | Routes        | Query                         | Parameters                      |
 | ----------------------------- | ------------- | ----------------------------- | ------------------------------- |
 | Exchange Open Interest        | futures       | openInterest                  | interval (int), symbol (string) |
 | Exchange Open Interest Chart  | futures       | openInterest/chart            | interval (int), symbol (string) |
@@ -38,7 +38,7 @@ GET https://open-api.coinglass.com/api/pro/v1/futures/openInterest
  
 ### Postman Example
 ``` bash
-curl --location --request GET 'localhost:4400/coinglass?key=YOUR_API_KEY&interval=12H&route=openInterest&symbol=BTC&query=futures'
+curl --location --request GET 'localhost:4400/coinglass?key=YOUR_API_KEY&route=futures&query=openInterest&symbol=BTC&interval=12H'
 ```
 
 #### Usage
