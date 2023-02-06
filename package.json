@@ -1,6 +1,6 @@
 {
     "name": "coinglass-node-api",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Unofficial Coinglass API for Node.js",
     "main": "app.js",
     "scripts": {
