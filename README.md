@@ -1,5 +1,9 @@
-# coinglass-node-api
-Unofficial Coinglass API for Node.js
+
+<p align="center">
+  <img width="40%" height="40%" src="https://github.com/vondas-network/coinglass-node-api/blob/main/img/coinglass-logo.png?raw=true"/>
+</p>
+
+<p align="center"><em>Unofficial Coinglass API for Node.js</em></p> 
 
 # Requirements
 - [Node.js](https://nodejs.org/en/)
