@@ -1,4 +1,3 @@
-
 <p align="center">
   <img width="40%" height="40%" src="https://github.com/vondas-network/coinglass-node-api/blob/main/img/coinglass-logo.png?raw=true"/>
 </p>
